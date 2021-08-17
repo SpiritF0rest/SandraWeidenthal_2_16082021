@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
+    <link rel="shortcut icon" href="logo/Reservia_icon.png" type="image/png">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -13,6 +14,61 @@
 <!-- Header -->
 
     <header>
+
+<!-- Logo and nav bar -->
+
+        <div id="logo">
+            <img src="logo/Reservia.svg" alt="Logo du site Reservia" />
+        </div>
+        <nav>
+            <ul>
+                <li class="internal_nav"><a href="#">Hébergements</a></li>
+                <li class="internal_nav"><a href="#">Activités</a></li>
+                <li id="login"><a href="">S'inscrire</a></li>
+            </ul>
+        </nav>
+
+<!-- search and filters section -->
+
+        <section>
+
+            <div id="page_title">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+
+            <form>
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" value="Marseille,France" />
+                <input type="button" value="Rechercher" onclick="submit();" />
+            </form>
+
+            <div class="filters">
+                <p><strong>Filtres</strong></p>
+                <button class="filter_button">
+                    <i class="fas fa-money-bill-wave"></i>
+                    Économique
+                </button>
+                <button class="filter_button">
+                    <i class="fas fa-child"></i>
+                    Familial
+                </button>
+                <button class="filter_button">
+                    <i class="fas fa-heart"></i>
+                    Romantique
+                </button>
+                <button class="filter_button">
+                    <i class="fas fa-dog"></i>
+                    Animaux autorisés
+                </button>
+            </div>
+
+            <div id="info">
+                <i class="fas fa-info"></i>
+                <p>Plus de <span id="housings_number">500</span> logements sont disponibles dans cette ville</p>
+            </div>
+
+        </section>
 
     </header>
 
@@ -33,6 +89,8 @@
     <footer>
 
     </footer>
+
+    <script src="https://kit.fontawesome.com/1f7aaf7cdc.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
