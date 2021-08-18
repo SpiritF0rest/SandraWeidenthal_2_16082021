@@ -1,0 +1,55 @@
+/* Font import */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Definition of basic properties */
+*
+{
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 16px;
+}
+
+body
+{
+    width: 100%;
+}
+
+#container
+{
+    width: 1260px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+/* Font Size and Weight */
+
+h1, h2
+{
+    font-size: 21px;
+}
+#filters p,.filter_button, input, #more_accommodations, footer h3 
+{
+    font-size: 17px;
+}
+.accommodation_description p
+{
+    font-size: 14px;
+}
+
+h1, h2, h3, #login, input, #filters p, .filter_button, #more_accommodations
+{
+    font-weight: bold;
+}
+
+/* Link */
+
+a
+{
+    text-decoration: none;
+}
+a:visited
+{
+    color: black;
+}
+
+/* Header properties */
