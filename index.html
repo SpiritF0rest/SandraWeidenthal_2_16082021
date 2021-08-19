@@ -16,7 +16,7 @@
     <header>
 
 <!-- Logo and nav bar -->
-
+        <div id="top_header">
         <div id="logo">
             <img src="logo/Reservia.svg" alt="Logo du site Reservia" />
         </div>
@@ -27,7 +27,8 @@
                 <li id="login"><a href="">S'inscrire</a></li>
             </ul>
         </nav>
-
+        </div>
+        
 <!-- search and filters section -->
 
         <section id="header_section">
@@ -39,8 +40,8 @@
 
             <form>
                 <i class="fas fa-map-marker-alt"></i>
-                <input type="text" value="Marseille,France" />
-                <input type="button" value="Rechercher" onclick="submit();" />
+                <input type="text" value="Marseille,France" id="search_area"/>
+                <input type="button" value="Rechercher" onclick="submit();" id="search_button"/>
             </form>
 
             <div id="filters">
